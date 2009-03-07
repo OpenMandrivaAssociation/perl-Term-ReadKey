@@ -1,6 +1,6 @@
 %define name	perl-Term-ReadKey
 %define version 2.30
-%define release %mkrel 6
+%define release %mkrel 7
 
 Summary:	Term::ReadKey Perl module
 Name:		%name
