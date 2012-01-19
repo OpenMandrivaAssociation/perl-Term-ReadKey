@@ -10,8 +10,8 @@ License:	GPL
 Group:		Development/Perl
 Source0:	http://search.cpan.org/CPAN/authors/id/J/JS/JSTOWE/TermReadKey-%{version}.tar.bz2
 Url:		http://search.cpan.org/dist/TermReadKey/
-BuildRequires:	perl-devel
-BuildRoot:	%{_tmppath}/%{name}-buildroot
+BuildRequires:	perl-devel >= 5.14
+BuildRequires:	perl-List-MoreUtils >= 0.320.0-2
 
 %description
 This module, ReadKey, provides ioctl control for terminals so the
