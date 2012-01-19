@@ -1,17 +1,13 @@
-%define name	perl-Term-ReadKey
-%define version 2.30
-%define release %mkrel 11
-
 Summary:	Term::ReadKey Perl module
-Name:		%name
-Version:	%version
-Release:	%release
+Name:		perl-Term-ReadKey
+Version:	2.30
+Release:	12
 License:	GPL
 Group:		Development/Perl
 Source0:	http://search.cpan.org/CPAN/authors/id/J/JS/JSTOWE/TermReadKey-%{version}.tar.bz2
 Url:		http://search.cpan.org/dist/TermReadKey/
-BuildRequires:	perl-devel >= 5.14
-BuildRequires:	perl-List-MoreUtils >= 0.320.0-2
+BuildRequires:	perl-devel >= 2:5.14
+BuildRequires:	perl-List-MoreUtils >= 0.320.0-3
 
 %description
 This module, ReadKey, provides ioctl control for terminals so the
