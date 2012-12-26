@@ -1,13 +1,13 @@
 Summary:	Term::ReadKey Perl module
 Name:		perl-Term-ReadKey
 Version:	2.30
-Release:	16
+Release:	18
 License:	GPL
 Group:		Development/Perl
 Source0:	http://search.cpan.org/CPAN/authors/id/J/JS/JSTOWE/TermReadKey-%{version}.tar.bz2
 Url:		http://search.cpan.org/dist/TermReadKey/
 BuildRequires:	perl-devel
-BuildRequires:	perl-List-MoreUtils >= 0.320.0-3
+BuildRequires:	perl-List-MoreUtils
 
 %description
 This module, ReadKey, provides ioctl control for terminals so the
@@ -25,21 +25,17 @@ perl Makefile.PL INSTALLDIRS=vendor </dev/null
 %make
 
 %install
-rm -rf %{buildroot}
 %makeinstall_std
 
-%clean
-rm -rf %{buildroot}
-
 %files
-%defattr(-,root,root)
 %doc README
 %{perl_vendorlib}/*
 %{_mandir}/*/*
 
-
-
 %changelog
+* Wed Dec 26 2012 Per Øyvind Karlsen <peroyvind@mandriva.org> 2.30-18
+- rebuild for new perl-5.16.2
+
 * Sun Jan 22 2012 Oden Eriksson <oeriksson@mandriva.com> 2.30-15
 + Revision: 765671
 - rebuilt for perl-5.14.2
