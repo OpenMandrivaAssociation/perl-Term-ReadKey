@@ -1,7 +1,7 @@
 Summary:	Term::ReadKey Perl module
 Name:		perl-Term-ReadKey
 Version:	2.30
-Release:	21
+Release:	22
 License:	GPL
 Group:		Development/Perl
 Source0:	http://search.cpan.org/CPAN/authors/id/J/JS/JSTOWE/TermReadKey-%{version}.tar.bz2
