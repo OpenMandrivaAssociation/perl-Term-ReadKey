@@ -18,7 +18,7 @@ retrieval/modification of the screen size, and retrieval/modification
 of the control characters.
 
 %prep
-%setup -qn TermReadKey-%{version}
+%setup -qn TermReadKey-2.31
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor </dev/null
