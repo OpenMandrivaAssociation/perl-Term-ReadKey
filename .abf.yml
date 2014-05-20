@@ -1,4 +1,5 @@
 removed_sources:
   TermReadKey-2.30.tar.bz2: 0ef2c7cbe796992ac90eef848b2bdac3548eded6
-sources:
   TermReadKey-2.31.tar.gz: c447b94899d75dc019f4ce8244ef0b31aed860fe
+sources:
+  TermReadKey-2.32.tar.gz: 0aef1009fca526d3a2ee4336584ff4cd69c2396e

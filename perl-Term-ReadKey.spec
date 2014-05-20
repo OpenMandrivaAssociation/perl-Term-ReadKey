@@ -1,11 +1,12 @@
 Summary:	Term::ReadKey Perl module
+
 Name:		perl-Term-ReadKey
-Version:	%perl_convert_version 2.31
+Version:	%perl_convert_version 2.32
 Release:	1
 License:	GPLv2
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/TermReadKey/
-Source0:	http://search.cpan.org/CPAN/authors/id/J/JS/JSTOWE/TermReadKey-2.31.tar.gz
+Source0:	http://search.cpan.org/CPAN/authors/id/J/JS/JSTOWE/TermReadKey-2.32.tar.gz
 BuildRequires:	perl-devel
 BuildRequires:	perl-List-MoreUtils
 
@@ -31,5 +32,6 @@ perl Makefile.PL INSTALLDIRS=vendor </dev/null
 %doc README
 %{perl_vendorlib}/*
 %{_mandir}/man3/*
+
 
 
