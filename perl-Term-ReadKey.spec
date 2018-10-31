@@ -2,7 +2,7 @@
 Summary:	Term::ReadKey Perl module
 Name:		perl-Term-ReadKey
 Version:	%perl_convert_version %{upstream_version}
-Release:	2
+Release:	3
 License:	GPLv2
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/TermReadKey/
