@@ -1,12 +1,12 @@
-%define upstream_version 2.37
+%define upstream_version 2.38
 Summary:	Term::ReadKey Perl module
 Name:		perl-Term-ReadKey
 Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Release:	1
 License:	GPLv2
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/TermReadKey/
-Source0:	http://search.cpan.org/CPAN/authors/id/J/JS/JSTOWE/TermReadKey-%{upstream_version}.tar.gz
+Url:		https://metacpan.org/pod/Term::ReadKey
+Source0:	https://cpan.metacpan.org/authors/id/J/JS/JSTOWE/TermReadKey-%{upstream_version}.tar.gz
 BuildRequires:	perl-devel
 BuildRequires:	perl-List-MoreUtils
 
