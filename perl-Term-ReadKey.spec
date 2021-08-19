@@ -2,7 +2,7 @@
 Summary:	Term::ReadKey Perl module
 Name:		perl-Term-ReadKey
 Version:	%perl_convert_version %{upstream_version}
-Release:	1
+Release:	2
 License:	GPLv2
 Group:		Development/Perl
 Url:		https://metacpan.org/pod/Term::ReadKey
@@ -20,13 +20,13 @@ of the control characters.
 
 %prep
 %setup -qn TermReadKey-%{upstream_version}
+perl Makefile.PL INSTALLDIRS=vendor </dev/null
 
 %build
-perl Makefile.PL INSTALLDIRS=vendor </dev/null
-%make
+%make_build
 
 %install
-%makeinstall_std
+%make_install
 
 %files
 %doc README
