@@ -1,3 +1,5 @@
+%define _empty_manifest_terminate_build 0
+
 %define upstream_version 2.38
 Summary:	Term::ReadKey Perl module
 Name:		perl-Term-ReadKey
