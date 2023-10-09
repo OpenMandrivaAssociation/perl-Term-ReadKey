@@ -1,16 +1,16 @@
-%define _empty_manifest_terminate_build 0
+%undefine _debugsource_packages
 
-%define upstream_version 2.38
 Summary:	Term::ReadKey Perl module
 Name:		perl-Term-ReadKey
-Version:	%perl_convert_version %{upstream_version}
-Release:	4
+Version:	2.38
+Release:	1
 License:	GPLv2
 Group:		Development/Perl
 Url:		https://metacpan.org/pod/Term::ReadKey
-Source0:	https://cpan.metacpan.org/authors/id/J/JS/JSTOWE/TermReadKey-%{upstream_version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/J/JS/JSTOWE/TermReadKey-%{version}.tar.gz
 BuildRequires:	perl-devel
 BuildRequires:	perl-List-MoreUtils
+Obsoletes:	%{name} = 2.380.0
 
 %description
 This module, ReadKey, provides ioctl control for terminals so the
@@ -21,7 +21,7 @@ retrieval/modification of the screen size, and retrieval/modification
 of the control characters.
 
 %prep
-%setup -qn TermReadKey-%{upstream_version}
+%autosetup -p1 -n TermReadKey-%{version}
 perl Makefile.PL INSTALLDIRS=vendor </dev/null
 
 %build
