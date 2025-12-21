@@ -8,6 +8,7 @@ License:	GPLv2
 Group:		Development/Perl
 Url:		https://metacpan.org/pod/Term::ReadKey
 Source0:	https://cpan.metacpan.org/authors/id/J/JS/JSTOWE/TermReadKey-%{version}.tar.gz
+BuildRequires:	make
 BuildRequires:	perl-devel
 BuildRequires:	perl-List-MoreUtils
 Obsoletes:	%{name} = 2.380.0
