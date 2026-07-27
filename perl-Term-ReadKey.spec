@@ -3,7 +3,7 @@
 Summary:	Term::ReadKey Perl module
 Name:		perl-Term-ReadKey
 Version:	2.38
-Release:	2
+Release:	3
 License:	GPLv2
 Group:		Development/Perl
 Url:		https://metacpan.org/pod/Term::ReadKey
